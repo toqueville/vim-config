@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set tabstop=2
 set smarttab
 set shiftwidth=2
@@ -14,9 +15,10 @@ autocmd FileType ruby autocmd BufWritePre <buffer> :%s/\s\+$//e
 set hlsearch
 set ruler
 syntax on
-
+set background=dark
+colorscheme solarized
 "match trailing whitespace as a Todo
 
 
-execute pathogen#infect()
+
 filetype plugin indent on
