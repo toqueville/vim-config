@@ -16,7 +16,7 @@ set hlsearch
 set ruler
 syntax on
 set background=dark
-colorscheme solarized
+colorscheme elflord
 "match trailing whitespace as a Todo
 
 
